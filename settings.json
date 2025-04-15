@@ -1,0 +1,290 @@
+{
+	// Основные настройки редактора
+	"window.openFilesInNewWindow": "off",
+	"editor.tabSize": 2,
+	"editor.folding": false,
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": true,
+	"editor.minimap.enabled": false,
+	"editor.detectIndentation": true,
+	"editor.suggestSelection": "first",
+	"editor.multiCursorModifier": "ctrlCmd",
+
+	// Настройки переноса слов
+	// "editor.wordWrap": "bounded",
+	// "editor.wrappingIndent": "same",
+	// "editor.wordWrapColumn": 80,
+
+	// Прокрутка за пределы последней строки
+	"editor.scrollBeyondLastLine": true,
+
+	// Связанные редактирования тегов
+	"editor.linkedEditing": true,
+
+	// Автоматическое закрытие тегов
+	"html.autoClosingTags": true,
+	"javascript.autoClosingTags": true,
+	"typescript.autoClosingTags": true,
+
+	// Отображение символов
+	"editor.renderControlCharacters": false,
+
+	// Подсветка неоднозначных символов
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+
+	// Быстрые подсказки
+	"html.completion.attributeDefaultValue": "singlequotes",
+	"editor.bracketPairColorization.enabled": false,
+	"editor.glyphMargin": false,
+	"editor.showFoldingControls": "never",
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "visible",
+	"window.density.editorTabHeight": "compact",
+	"editor.accessibilitySupport": "off",
+	"workbench.activityBar.location": "top",
+	"workbench.editor.editorActionsLocation": "hidden",
+	"workbench.editor.empty.hint": "hidden",
+
+	// Настройки курсора
+	// "editor.cursorSmoothCaretAnimation": "explicit",
+	"editor.cursorBlinking": "expand",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorStyle": "line-thin",
+
+	// Настройки шрифта
+	"editor.fontSize": 16,
+	"editor.lineHeight": 30,
+	"editor.fontWeight": "400",
+	// "editor.fontLigatures": "t",
+	"editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
+	"editor.fontFamily": "'Monaspace Neon', monospace",
+	"editor.inlineSuggest.fontFamily": "'Monaspace Krypton', monospace",
+	"editor.inlayHints.fontFamily": "Monaspace Krypton",
+	"chat.editor.fontFamily": "Monaspace Krypton",
+	"editor.codeLensFontFamily": "Monaspace Krypton",
+	"debug.console.fontFamily": "Monaspace Krypton",
+
+	// Кастомизация подсветки синтаксиса
+	"editor.tokenColorCustomizations": {
+		"[*Light*]": {
+			"textMateRules": [
+				{
+					"scope": "ref.matchtext",
+					"settings": {
+						"foreground": "#000"
+					}
+				}
+			]
+		},
+		"[*Dark*]": {
+			"textMateRules": [
+				{
+					"scope": "ref.matchtext",
+					"settings": {
+						"foreground": "#fff"
+					}
+				}
+			]
+		},
+		"textMateRules": [
+			{
+				"scope": [
+					"comment",
+					"entity.name.type.class",
+					"keyword",
+					"constant",
+					"storage.modifier",
+					"storage.type.class.js"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": [
+					"invalid",
+					"keyword.operator",
+					"constant.numeric.css",
+					"keyword.other.unit.px.css",
+					"constant.numeric.decimal.js",
+					"constant.numeric.json"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			}
+		]
+	},
+
+	// Настройки терминала
+	"terminal.integrated.fontFamily": "PragmataPro Liga",
+	"terminal.integrated.fontSize": 13,
+	"terminal.integrated.cursorStyle": "line",
+
+	// Настройки обозревателя
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.startupEditor": "none",
+
+	// Настройки отладки
+	"debug.toolBarLocation": "hidden",
+	"debug.focusWindowOnBreak": false,
+	"debug.showInlineBreakpointCandidates": false,
+	"debug.showBreakpointsInOverviewRuler": false,
+
+	// Настройки Emmet
+	"emmet.includeLanguages": {
+		"blade": "html",
+		"javascript": "javascriptreact"
+	},
+	"emmet.triggerExpansionOnTab": true,
+
+	// Настройки форматирования
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"prettier.arrowParens": "avoid",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.inlineSuggest.enabled": true,
+
+	// Настройки для Laravel
+	// "[blade]": {
+	// 	"editor.defaultFormatter": "onecentlin.laravel-blade"
+	// },
+
+	// Настройки для Breadcrumbs
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showConstructors": false,
+
+	// Настройки для JS и TS
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.format.semicolons": "remove",
+	"typescript.format.semicolons": "remove",
+	"js/ts.implicitProjectConfig.experimentalDecorators": true,
+
+	// Настройки проверки орфографии
+	"cSpell.language": "en,uk",
+	"cSpell.enabled": true,
+	"cSpell.autoFormatConfigFile": true,
+	"cSpell.enabledFileTypes": {
+		"*": true,
+		"blade": true,
+		"jsx": true,
+		"tsx": true,
+		"ts": true,
+		"js": true,
+		"scss": true,
+		"sass": true,
+		"vue": true
+	},
+
+	"editor.hideCursorInOverviewRuler": true,
+	"git.enableSmartCommit": true,
+
+	"files.exclude": {
+		"**/.expo": true,
+		"**/.expo-shared": true,
+		"**/.idea": true,
+		"**/.nuxt": true
+	},
+
+	"files.defaultLanguage": "plaintext",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"window.confirmBeforeClose": "keyboardOnly",
+	"git.openRepositoryInParentFolders": "never",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"window.zoomLevel": 2,
+	"editor.stickyScroll.scrollWithEditor": false,
+	"workbench.tree.enableStickyScroll": false,
+	"editor.stickyScroll.enabled": false,
+	"redhat.telemetry.enabled": false,
+	"github.copilot.editor.enableAutoCompletions": true,
+	"window.commandCenter": false,
+	"workbench.editor.customLabels.patterns": {
+		"**/app/**/[[]*[]]/[[]*[]]/page.tsx": "${dirname(2)}/${dirname(1)}/${dirname}/page.tsx",
+		"**/app/**/[[]*[]]/page.tsx": "${dirname(1)}/${dirname}/page.tsx",
+		"**/app/**/page.tsx": "${dirname}/page.tsx",
+		"**/app/**/[[]*[]]/[[]*[]]/layout.tsx": "${dirname(2)}/${dirname(1)}/${dirname}/layout.tsx",
+		"**/app/**/[[]*[]]/layout.tsx": "${dirname(1)}/${dirname}/layout.tsx",
+		"**/app/**/layout.tsx": "${dirname}/layout.tsx"
+	},
+
+	"markdown.updateLinksOnFileMove.enabled": "always",
+	"javascript.experimental.updateImportsOnPaste": true,
+	"typescript.experimental.updateImportsOnPaste": true,
+	"markdown.experimental.updateLinksOnPaste": true,
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 1000,
+	"workbench.iconTheme": "a-file-icon-vscode",
+	"a-file-icon-vscode.arrowTheme": "none",
+	"flow-icons.hidesExplorerArrows": true,
+
+	"vim.easymotion": true,
+	"vim.incsearch": true,
+	"vim.useSystemClipboard": true,
+	"vim.useCtrlKeys": true,
+	"vim.hlsearch": true,
+	"vim.leader": "<space>",
+	"vim.handleKeys": {
+		"<C-a>": false,
+		"<C-f>": false
+	},
+
+	"extensions.experimental.affinity": {
+		"vscodevim.vim": 1
+	},
+	"workbench.layoutControl.enabled": false,
+	"chat.commandCenter.enabled": false,
+	"window.titleBarStyle": "native",
+	"window.menuBarVisibility": "toggle",
+	"explorer.compactFolders": false,
+	"terminal.integrated.env.windows": {},
+	"terminal.integrated.env.linux": {},
+	"console-ninja.featureSet": "Community",
+	"workbench.colorCustomizations": {},
+	"workbench.colorTheme": "Adonis+ Dark",
+	"vscode_custom_css.imports": [
+		"file:///home/matvii/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+	],
+	"animations.Install-Method": "Custom UI Style",
+	"apc.imports": [
+		"file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+	],
+	"animations.Enabled": true,
+	"custom-ui-style.external.imports": [
+		"file:///home/matvii/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+	],
+	"animations.CursorAnimation": true,
+	"animations.CursorAnimationOptions": {
+		"TrailLength": 6.5
+	},
+	"window.customTitleBarVisibility": "never",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"workbench.statusBar.visible": false
+}
