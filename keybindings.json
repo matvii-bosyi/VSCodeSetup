@@ -29,11 +29,11 @@
 		"command": "workbench.view.extensions"
 	},
 	{
-		"key": "ctrl+shift+b",
+		"key": "ctrl+shift+s",
 		"command": "workbench.action.toggleSidebarVisibility"
 	},
 	{
-		"key": "ctrl+shift+s",
+		"key": "ctrl+shift+b",
 		"command": "workbench.action.toggleStatusbarVisibility"
 	},
 	{

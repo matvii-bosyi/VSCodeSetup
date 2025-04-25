@@ -1,4 +1,5 @@
 {
+	// Основные настройки редактора
 	"window.openFilesInNewWindow": "off",
 	"editor.tabSize": 2,
 	"editor.folding": false,
@@ -9,22 +10,29 @@
 	"editor.suggestSelection": "first",
 	"editor.multiCursorModifier": "ctrlCmd",
 
+	// Настройки переноса слов
 	// "editor.wordWrap": "bounded",
 	// "editor.wrappingIndent": "same",
 	// "editor.wordWrapColumn": 80,
 
+	// Прокрутка за пределы последней строки
 	"editor.scrollBeyondLastLine": true,
 
+	// Связанные редактирования тегов
 	"editor.linkedEditing": true,
 
+	// Автоматическое закрытие тегов
 	"html.autoClosingTags": true,
 	"javascript.autoClosingTags": true,
 	"typescript.autoClosingTags": true,
 
+	// Отображение символов
 	"editor.renderControlCharacters": false,
 
+	// Подсветка неоднозначных символов
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 
+	// Быстрые подсказки
 	"html.completion.attributeDefaultValue": "singlequotes",
 	"editor.bracketPairColorization.enabled": false,
 	"editor.glyphMargin": false,
@@ -37,13 +45,17 @@
 	"workbench.editor.editorActionsLocation": "hidden",
 	"workbench.editor.empty.hint": "hidden",
 
+	// Настройки курсора
+	// "editor.cursorSmoothCaretAnimation": "explicit",
 	"editor.cursorBlinking": "expand",
 	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.cursorStyle": "line-thin",
 
+	// Настройки шрифта
 	"editor.fontSize": 16,
 	"editor.lineHeight": 30,
 	"editor.fontWeight": "400",
+	// "editor.fontLigatures": "t",
 	"editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
 	"editor.fontFamily": "'Monaspace Neon', monospace",
 	"editor.inlineSuggest.fontFamily": "'Monaspace Krypton', monospace",
@@ -52,6 +64,7 @@
 	"editor.codeLensFontFamily": "Monaspace Krypton",
 	"debug.console.fontFamily": "Monaspace Krypton",
 
+	// Кастомизация подсветки синтаксиса
 	"editor.tokenColorCustomizations": {
 		"[*Light*]": {
 			"textMateRules": [
@@ -103,26 +116,31 @@
 		]
 	},
 
+	// Настройки терминала
 	"terminal.integrated.fontFamily": "PragmataPro Liga",
 	"terminal.integrated.fontSize": 13,
 	"terminal.integrated.cursorStyle": "line",
 
+	// Настройки обозревателя
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.startupEditor": "none",
 
+	// Настройки отладки
 	"debug.toolBarLocation": "hidden",
 	"debug.focusWindowOnBreak": false,
 	"debug.showInlineBreakpointCandidates": false,
 	"debug.showBreakpointsInOverviewRuler": false,
 
+	// Настройки Emmet
 	"emmet.includeLanguages": {
 		"blade": "html",
 		"javascript": "javascriptreact"
 	},
 	"emmet.triggerExpansionOnTab": true,
 
+	// Настройки форматирования
 	"prettier.semi": false,
 	"prettier.useTabs": true,
 	"editor.formatOnSave": true,
@@ -138,10 +156,12 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.inlineSuggest.enabled": true,
 
+	// Настройки для Laravel
 	// "[blade]": {
 	// 	"editor.defaultFormatter": "onecentlin.laravel-blade"
 	// },
 
+	// Настройки для Breadcrumbs
 	"breadcrumbs.icons": false,
 	"breadcrumbs.showKeys": false,
 	"breadcrumbs.showFiles": false,
@@ -157,6 +177,7 @@
 	"breadcrumbs.showEnumMembers": false,
 	"breadcrumbs.showConstructors": false,
 
+	// Настройки для JS и TS
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"typescript.preferences.quoteStyle": "single",
@@ -165,9 +186,11 @@
 	"typescript.format.semicolons": "remove",
 	"js/ts.implicitProjectConfig.experimentalDecorators": true,
 
+	// Настройки проверки орфографии
 	"cSpell.language": "en,uk",
 	"cSpell.enabled": true,
 	"cSpell.autoFormatConfigFile": true,
+	"cSpell.userWords": ["RAWG"],
 	"cSpell.enabledFileTypes": {
 		"*": true,
 		"blade": true,
@@ -202,7 +225,9 @@
 	"workbench.tree.enableStickyScroll": false,
 	"editor.stickyScroll.enabled": false,
 	"redhat.telemetry.enabled": false,
-	"github.copilot.editor.enableAutoCompletions": true,
+	"github.copilot.enable": {
+		"enabled": true
+	},
 	"window.commandCenter": false,
 	"workbench.editor.customLabels.patterns": {
 		"**/app/**/[[]*[]]/[[]*[]]/page.tsx": "${dirname(2)}/${dirname(1)}/${dirname}/page.tsx",
@@ -246,7 +271,7 @@
 	"terminal.integrated.env.linux": {},
 	"console-ninja.featureSet": "Community",
 	"workbench.colorCustomizations": {},
-	"workbench.colorTheme": "Adonis+ Dark",
+	"workbench.colorTheme": "Moegi Dark Vitesse",
 	"vscode_custom_css.imports": [
 		"file:///home/matvii/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
 	],
@@ -264,5 +289,16 @@
 	},
 	"window.customTitleBarVisibility": "never",
 	"liveServer.settings.donotShowInfoMsg": true,
+	"workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
+	"gitlens.advanced.messages": {
+		"suppressLineUncommittedWarning": true
+	},
+	"github.copilot.nextEditSuggestions.enabled": false,
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
 	"workbench.statusBar.visible": false
 }
